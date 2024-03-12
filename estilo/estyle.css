@@ -1,0 +1,1560 @@
+@charset "UTF8";
+
+/* ======= Reset ======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+nav, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+ /* ======= Header ======= */
+
+header {
+    background-color: #02351a;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-left: 107px;
+}
+
+header h1 a {
+    color: white;
+}
+
+header nav {
+    width: 100%;
+    margin-right: 107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+} 
+
+header ul {
+    display: flex;
+    padding: 0px 20px;
+}
+
+header li {
+    margin: 0px 15px;
+}
+
+header li a {
+    padding: 10px 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+header li a:hover {
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
+
+ /* ======= Hero ======= */
+
+.hero {
+    background-color: rgb(0, 63, 5);
+    background-image: url(../imagens/backgroud-hero.jpg);
+    min-height: 70vh;
+    background-position: 0px -85px;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero div {
+    margin-left: 157px;
+    margin-right: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.hero .btn {
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color: black;
+    margin-top: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero a.btn {
+    font-size: 1.5rem;
+}
+  
+/* ======= Sobre ======= */
+
+.sobre {
+    background-color: white;
+    
+}
+
+.sobre h1.titulo {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sobre hr.hr-sobre {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.sobre h2.subtitulo-sobre {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sobre div.container {
+    margin-left: 157px;
+    margin-right: 157px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    font-size: 1rem;
+}
+
+.sobre div.col1 {
+    width: 945px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+}
+
+.sobre div.col2 {
+    width: 945px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: left;
+}
+
+.sobre hr {
+    height: 5px;
+    background-color: gray
+}
+
+.sobre .previa {
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.sobre .previa div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.previa .pvita {
+    width: 231px;
+    height: 231px;
+    background-color: rgb(0, 255, 200);
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px 100px 0px 100px;
+    background-image: url(../imagens/sobre/vita.png);
+}
+
+.previa .pvita:hover {
+    background-color: yellow;
+    border-style: solid;
+    border-color: rgb(3, 88, 0);
+}
+
+.previa .psais {
+    width: 231px;
+    height: 231px;
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px 100px 0px 100px;
+    background-image: url(../imagens/sobre/sais.png);
+}
+
+.previa .psais:hover {
+    background-color: red;
+    border-style: solid;
+    border-color: rgb(3, 88, 0);
+}
+
+.previa .pamin {
+    width: 231px;
+    height: 231px;
+    background-color: rgb(0, 255, 200);
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px 100px 0px 100px;
+    background-image: url(../imagens/sobre/amin.png);
+}
+
+.previa .pamin:hover {
+    background-color: green;
+    border-style: solid;
+    border-color: rgb(3, 88, 0);
+}
+
+.previa .pcarb {
+    width: 231px;
+    height: 231px;
+    background-color: rgb(0, 255, 200);
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 100px 100px 0px 100px;
+    background-image: url(../imagens/sobre/carb.png);
+}
+
+.previa .pcarb:hover {
+    background-color: blue;
+    border-style: solid;
+    border-color: rgb(3, 88, 0);
+}
+
+iframe {
+    width: 1348px;
+    height: 600px;
+    background-color: rgb(197, 197, 197);
+}
+
+
+
+/* ======= Sobre Parallax ======= */
+
+.parallax-sobre {
+    background-image: url(../imagens/parallax/sobre-parallax.jpg);
+    width: 1348px;
+    height: 400px;
+    background-position: 0px -85px;;
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+}
+
+/* ======= Vitaminas ======= */
+    
+.vitaminas {
+    height: 5000px;
+    margin: auto;
+    background-color: rgb(211, 211, 211);
+}
+
+.vitaminas .container1 {
+    margin-left: 157px;
+    margin-right: 157px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.vitaminas h1.titulo {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.vitaminas hr.hr-vita {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.vitaminas h2.subtitulo-vita {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.vitaminas .container1 .texto1 p {
+    width: 440px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: nowrap;
+    text-indent: 50px;
+}
+
+.vitaminas .container1 .imagem1 {
+    width: 450px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: nowrap;
+    background-image: url(../imagens/vitaminas/vita-img1.jpg);
+}
+
+.vitaminas .container2 {
+    margin-left: 157px;
+    margin-right: 157px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.vitaminas .container2 .texto2 p {
+    width: 440px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: nowrap;
+    text-indent: 50px;
+}
+
+.vitaminas .container2 .imagem2 {
+    width: 450px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: nowrap;
+    background-image: url(../imagens/vitaminas/vita-img2.jpg);
+}
+
+/* Hidrossolúveis */
+
+.hidro {
+    width: 980px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dddddd;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.vitaminas h2.subtitulo-hidro {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hidro .vitamina-b1 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b1:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b2 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+   
+}
+
+.hidro .vitamina-b2:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b3 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b3:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b5 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b5:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b7 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b7:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b9 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b9:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-b12 {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-b12:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .vitamina-c {
+    width: 230px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.hidro .vitamina-c:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.hidro .faixa1 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa2 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa3 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa4 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa5 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa6 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa7 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .faixa8 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.hidro .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema5 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema6 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema7 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .tema8 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b1 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b2 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b3 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b5 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b7 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b9 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-b12 img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.hidro .vitamina-c img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+/* Lipossolúveis */
+
+.lipo {
+    width: 980px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dddddd;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.vitaminas h2.subtitulo-lipo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.lipo .vitamina-a {
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.lipo .vitamina-a:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.lipo .vitamina-d {
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.lipo .vitamina-d:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.lipo .vitamina-e {
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.lipo .vitamina-e:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.lipo .vitamina-k {
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.lipo .vitamina-k:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.lipo .faixa1 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.lipo .faixa2 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.lipo .faixa3 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.lipo .faixa4 {
+    width: 210px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 8px;
+}
+
+.lipo .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.lipo .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.lipo .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.lipo .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -24px;
+    font-size: 1.3rem;
+}
+
+.lipo .vitamina-a img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.lipo .vitamina-d img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.lipo .vitamina-e img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+.lipo .vitamina-k img {
+    position: relative;
+    top: -48px;
+    font-size: 1.3rem;
+}
+
+/* Funções - Hidrossolúveis*/
+
+.func-hidro {
+    width: 1045px;
+    height: 678px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dddddd;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.vitaminas h2.subtitulo-func {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.vitaminas h3.subtitulo-func {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.func-hidro .func-vitamina-b1 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b1:hover {
+    color: white;
+    border-color: red;
+    border-style: solid;
+    background-color: #02351a;
+    
+}
+
+.func-hidro .func-vitamina-b2 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b2:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b3 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b3:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b5 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b5:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b7 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b7:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b9 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b9:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b12 {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-b12:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-c {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-hidro .func-vitamina-c:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-hidro .func-vitamina-b1 .faixa1 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b1 .faixa1:hover {
+    background-color: red;
+}
+
+.func-hidro .func-vitamina-b2 .faixa2 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b3 .faixa3 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.func-hidro .func-vitamina-b5 .faixa4 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b7 .faixa5 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b9 .faixa6 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b12 .faixa7 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-c .faixa8 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-hidro .func-vitamina-b1 .tema1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b2 .tema2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b3 .tema3 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b5 .tema4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b7 .tema5 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b9 .tema6 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b12 .tema7 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-c .tema8 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-hidro .func-vitamina-b1 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b2 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b3 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b5 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b7 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b9 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-b12 ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-hidro .func-vitamina-c ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Funções - Lipossolúveis*/
+
+.func-lipo {
+    width: 1045px;
+    height: 445px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dddddd;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.vitaminas h2.subtitulo-func {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.vitaminas h3.subtitulo-func {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.func-lipo .func-vitamina-a {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-lipo .func-vitamina-a:hover {
+    color: white;
+    border-color: red;
+    border-style: solid;
+    background-color: #02351a;
+    
+}
+
+.func-lipo .func-vitamina-d {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-lipo .func-vitamina-d:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-lipo .func-vitamina-e {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-lipo .func-vitamina-e:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-lipo .func-vitamina-k {
+    width: 335px;
+    height: 213px;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.func-lipo .func-vitamina-k:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.func-lipo .func-vitamina-a .faixa1 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-lipo .func-vitamina-a .faixa1:hover {
+    background-color: red;
+}
+
+.func-lipo .func-vitamina-d .faixa2 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-lipo .func-vitamina-e .faixa3 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.func-lipo .func-vitamina-k .faixa4 {
+    width: 310px;
+    height: 40px;
+    margin: auto;
+    border-color: #02351a;
+    border-style: solid;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+}
+
+.func-lipo .func-vitamina-a .tema1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-lipo .func-vitamina-d .tema2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-lipo .func-vitamina-e .tema3 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-lipo .func-vitamina-k .tema4 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    font-size: 1.3rem;
+}
+
+.func-lipo .func-vitamina-a ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-lipo .func-vitamina-d ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-lipo .func-vitamina-e ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.func-lipo .func-vitamina-k ul li {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* ======= Sais Minerais ======= */
+
+
+
+/* ======= Aminoácidos ======= */
+
+
+
+/* ======= Carboidratos ======= */
+
+
+
+/* ======= Contato ======= */
+
+
+
+/* ======= Footer ======= */
+
+
