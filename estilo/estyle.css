@@ -91,9 +91,10 @@ header li a:hover {
  /* ======= Hero ======= */
 
 .hero {
+    width: 100%;
+    min-height: 70vh;
     background-color: rgb(0, 63, 5);
     background-image: url(../imagens/backgroud-hero.jpg);
-    min-height: 70vh;
     background-position: 0px -85px;;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,8 +149,8 @@ header li a:hover {
 /* ======= Sobre ======= */
 
 .sobre {
+    width: 100%;
     background-color: white;
-    
 }
 
 .sobre h1.titulo {
@@ -431,17 +432,9 @@ iframe {
     padding: 70px;
     margin: auto;
     background-color: #dddddd;
-    /*
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 20px;
-    align-items: center;
-    border-radius: 30px;
-    */
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -845,7 +838,7 @@ iframe {
     background-color: #dddddd;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     border-radius: 30px;
