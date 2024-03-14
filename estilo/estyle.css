@@ -39,60 +39,55 @@ img {
 header {
     background-color: #02351a;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    padding: 30px 30px;
+}
+
+header .navegacao {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-header h1 {
-    font-size: 2rem;
-    margin-left: 107px;
+header .navegacao h1 {
+    font-size: 1.5rem;
 }
 
-header h1 a {
+header .navegacao h1 a {
     color: white;
 }
 
-header nav {
-    width: 100%;
-    margin-right: 107px;
+header .navegacao nav {
+    margin-left: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: end;
+    font-size: 1rem;
 } 
 
 header ul {
-    display: flex;
-    padding: 0px 20px;
-}
-
-header li {
-    margin: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header li a {
-    padding: 10px 10px;
+    margin: 10px;
     color: white;
     border-radius: 30px;
 }
 
 header li a:hover {
-    padding: 10px 10px;
+    padding: 10px;
     background-color: red;
     color: white;
-    border-radius: 30px;
+    border-radius: 100px;
 }
 
  /* ======= Hero ======= */
 
 .hero {
     width: 100%;
-    min-height: 70vh;
+    padding: 70px;
     background-color: rgb(0, 63, 5);
     background-image: url(../imagens/backgroud-hero.jpg);
     background-position: 0px -85px;;
@@ -100,16 +95,11 @@ header li a:hover {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    font-size: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero div {
-    margin-left: 157px;
-    margin-right: 157px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,17 +114,18 @@ header li a:hover {
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     text-align: center;
 }
 
 .hero .btn {
-    width: 200px;
+    width: 150px;
     height: 30px;
-    background-color: red;
-    color: black;
-    margin-top: 15px;
+    border-style: solid;
+    border-color: red;
+    color: white;
+    margin-top: 30px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -143,13 +134,18 @@ header li a:hover {
 }
 
 .hero a.btn {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.hero a.btn:hover {
+    background-color: red;
 }
   
 /* ======= Sobre ======= */
 
 .sobre {
     width: 100%;
+    margin-top: 70px;
     background-color: white;
 }
 
@@ -175,10 +171,14 @@ header li a:hover {
 }
 
 .sobre .container {
-    width: 60%;
+    width: 75%;
     background-color: #dddddd;
+    border-radius: 30px;
     margin: auto;
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     position: relative;
     font-size: 1rem;
 }
@@ -193,14 +193,20 @@ header li a:hover {
 }
 
 .sobre hr {
+    width: 100%;
     height: 2px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
     background-color: gray
 }
 
 .sobre .previa {
-    width: 60%;
+    width: 75%;
     background-color: #dddddd;
     margin: auto;
+    margin-bottom: 70px;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -308,17 +314,17 @@ iframe {
     
 .vitaminas {
     width: 100%;
-    height: 5000px;
     margin: auto;
-    background-color: rgb(211, 211, 211);
 }
 
 .vitaminas .container {
-    width: 100%;
+    width: 75%;
     margin: auto;
     padding: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 30px;
     font-size: 1rem;
     display: flex;
     flex-direction: row;
@@ -328,6 +334,8 @@ iframe {
 }
 
 .vitaminas h1.titulo {
+    margin: auto;
+    margin-top: 70px;
     font-size: 3rem;
     text-align: center;
 }
@@ -347,7 +355,6 @@ iframe {
     font-size: 1.5rem;
     text-align: center;
 }
-
 
 .vitaminas .container .texto1 p {
     width: 440px;
@@ -404,7 +411,7 @@ iframe {
 /* Hidrossolúveis */
 
 .hidro {
-    width: 80%;
+    width: 75%;
     padding: 70px;
     margin: auto;
     background-color: #dddddd;
@@ -413,6 +420,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 30px;
 }
 
 .vitaminas h2.subtitulo-hidro {
@@ -808,7 +816,7 @@ iframe {
 /* Lipossolúveis */
 
 .lipo {
-    width: 80%;
+    width: 75%;
     padding: 70px;
     margin: auto;
     background-color: #dddddd;
@@ -1020,7 +1028,7 @@ iframe {
 /* Funções - Hidrossolúveis*/
 
 .func-hidro {
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: #dddddd;
@@ -1424,7 +1432,7 @@ iframe {
 /* Funções - Lipossolúveis*/
 
 .func-lipo {
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: #dddddd;
