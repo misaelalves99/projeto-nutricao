@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19.858mm" height="19.132mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0" viewBox="0 0 777 749" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">.fil2 {fill:#E08600} .fil0 {fill:#EBA800} .fil1 {fill:#FFE27A}</style>
+ </defs>
+ <ellipse class="fil0" cx="389" cy="374" rx="389" ry="374"/>
+ <ellipse class="fil1" cx="389" cy="374" rx="374" ry="361"/>
+ <ellipse class="fil2" cx="389" cy="374" rx="350" ry="337"/>
+ <path class="fil0" d="m93 230c-23 48-37 117 13 144 51 28 167 14 225 7s58-7 23-48c-34-41-102-123-153-150-51-28-84-1-108 47z"/>
+ <path class="fil0" d="m394 46c-53-1-122 15-125 73-4 58 58 156 89 206 31 49 31 49 53 1 23-49 68-145 72-203 3-58-36-76-89-77z"/>
+ <path class="fil0" d="m678 218c-25-47-73-98-125-73s-108 127-136 178-28 51 25 47c53-3 160-11 212-37 52-25 49-67 24-115z"/>
+ <path class="fil0" d="m672 541c27-46 47-114-2-145-48-31-165-26-223-24s-58 2-27 46 93 131 141 162c49 31 84 7 111-39z"/>
+ <path class="fil0" d="m394 703c53-1 121-19 123-77 1-58-64-155-96-203-32-49-32-49-53 1-21 49-64 147-65 205-2 58 38 75 91 74z"/>
+ <path class="fil0" d="m110 549c28 45 79 94 129 65 51-29 100-134 125-187s25-53-28-45c-53 7-159 22-210 51-50 28-44 70-16 116z"/>
+</svg>

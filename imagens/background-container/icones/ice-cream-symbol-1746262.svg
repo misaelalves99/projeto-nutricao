@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" baseProfile="tiny" preserveAspectRatio="xMidYMid" version="1.2" viewBox="0 0 21000 29700">
+  <rect width="21000" height="29700" fill="none"/>
+   <path d="m13371 5274c2176 0 3838 1679 3838 3876s-1662 3876-3838 3876-3837-1679-3837-3876 1661-3876 3837-3876z"/>
+   <path d="m13371 5274c2176 0 3838 1679 3838 3876s-1662 3876-3838 3876-3837-1679-3837-3876 1661-3876 3837-3876z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="200"/>
+   <rect x="9535" y="5274" width="7676" height="7753" fill="none"/>
+   <path d="m7136 5543c2176 0 3838 1671 3838 3860s-1662 3861-3838 3861-3837-1672-3837-3861 1661-3860 3837-3860z"/>
+   <path d="m7136 5543c2176 0 3838 1671 3838 3860s-1662 3861-3838 3861-3837-1672-3837-3861 1661-3860 3837-3860z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="200"/>
+   <rect x="3300" y="5544" width="7676" height="7722" fill="none"/>
+   <path d="m10115 29710l5821-17495h-11641l5820 17495z"/>
+   <path d="m10115 29710l5821-17495h-11641l5820 17495z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="200"/>
+   <rect x="4294" y="12216" width="11642" height="17496" fill="none"/>
+   <path d="m10250 1e3c2200 0 3880 1667 3880 3849s-1680 3849-3880 3849-3880-1667-3880-3849 1680-3849 3880-3849z"/>
+   <path d="m10250 1e3c2200 0 3880 1667 3880 3849s-1680 3849-3880 3849-3880-1667-3880-3849 1680-3849 3880-3849z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="200"/>
+   <rect x="6370" y="1e3" width="7761" height="7699" fill="none"/>
+</svg>

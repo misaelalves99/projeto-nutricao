@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21.719mm" height="15.083mm" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0" viewBox="0 0 12214 8482" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">.fil3 {fill:black} .fil1 {fill:#2E6600} .fil0 {fill:#382A00} .fil2 {fill:#B8CF23}</style>
+ </defs>
+ <path class="fil0" d="m21 3253c63 869 286 2277 1021 3272s1983 1576 3380 1818c1396 242 2941 145 4159-113 1219-258 2110-678 2704-1307 595-629 892-1468 926-2620 34-1153-195-2619-1293-2881s-3065 679-5004 930c-1939 252-3850-187-4855-242-1004-55-1101 274-1038 1143z"/>
+ <path class="fil1" d="m2704 343c-1738 484-2689 1516-2704 2581s906 2162 2377 2823c1471 662 3491 888 5140 694s2927-807 3700-1597c772-791 1039-1759 668-2597-371-839-1382-1549-3149-1936-1768-387-4294-452-6032 32z"/>
+ <path class="fil2" d="m4920 2380c-544 152-841 474-846 807-4 333 284 676 743 883 460 207 1092 277 1607 217 516-61 915-252 1157-500 241-247 325-549 209-812-117-262-432-484-985-605s-1342-141-1885 10z"/>
+ <ellipse class="fil3" cx="3269" cy="3059" rx="529" ry="181"/>
+ <ellipse class="fil3" transform="matrix(.92591 .15319 -.14107 1.0055 3482 2559.4)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.90778 -.25034 .23054 .98578 3408.6 3603.5)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.80029 -.52837 .48656 .86905 3798.3 4087.1)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.52442 -.74852 .6893 .56948 4327.6 4509.6)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.77403 .57265 -.52734 .84054 3975.7 2083.5)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.64262 .64327 -.68135 .60671 4598.9 1844.1)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.55822 .69383 -.75206 .515 5170.4 1731.6)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.26316 -.77745 .89886 -.22761 5837.2 1713.8)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.15038 -.81205 .92036 -.075398 6390.5 1759.6)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.010741 -.82822 .9143 .13712 6921.6 1896)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.4067 -.83039 .76468 .44164 4873.9 4775.8)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.057132 -.93848 .86422 -.062041 5510.6 4871)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.057132 -.93848 .86422 -.062041 6048.5 5021.6)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.29349 -.88488 .81487 -.3187 6666.2 4891.9)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(-.40465 -.83156 .76576 -.43942 7285.4 4865.9)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.54222 .73341 -.67538 .5888 7780.9 4526.2)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.64042 .6332 -.5831 .69544 8137.8 4182.1)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.30074 -.7612 .79708 .50533 7497.6 2028.8)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.49205 -.63292 .62677 .73574 7980.7 2379.1)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.62962 -.46756 .42346 .89057 8230.9 2777.1)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.76007 -.069571 -.036044 1.0015 8402.4 3216.2)" rx="565" ry="178"/>
+ <ellipse class="fil3" transform="matrix(.74333 .1858 -.31596 .94172 8368.2 3647.3)" rx="565" ry="178"/>
+</svg>

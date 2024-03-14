@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient id="a" cx=".33704" cy=".28358" r=".38184">
+   <stop stop-color="#ff0" offset="0"/>
+   <stop stop-color="#ffe300" offset="1"/>
+  </radialGradient>
+ </defs>
+ <path d="m68.708 148.13c159.99-138.55 405.75-1.971 402.45 141.53 26.39 25.565-3.2988 53.605-19.793 61.027-141.85 174.83-433.79 31.338-416.47-112.98-22.049-63.372-2.4741-82.148 33.812-89.57z" fill="url(#a)" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="10"/>
+ <path d="m44.33 267.99c21.25-21.25 23.75 143.75 333.75 82.5-6.25-6.25-40-148.75 80-101.25 46.875 14.375-99.375-9.6875-47.5 90 8.044 13.096 5.625 13.125 27.5 18.75-132.5 142.5-391.25 32.5-393.75-90z" fill-opacity=".13333" fill-rule="evenodd"/>
+ <path d="m68.08 155.83c56.289-65.342 245.61-111.86 370 47.5-42.5 46.25-162.5-153.75-370-47.5z" fill="#fff" fill-opacity=".7" fill-rule="evenodd"/>
+ <path d="m469.33 295.49c14.316 17.5 1.25 37.5-8.75 35-78.75-21.25-36.25-42.5 8.75-35z" fill="#fff" fill-opacity=".7" fill-rule="evenodd"/>
+</svg>

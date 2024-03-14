@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#fff">
+  <g stroke="#000">
+   <path d="m85.75 55.3c-20 5-45-5-50 35s30 115 60 105c15-5 10-5 30 0 40 10 80-89 60-120-20-30-60-30-100-20z" stroke-width="1.25"/>
+   <path d="m110.75 60.3c-10-30-35-45-60-45-10 0-20 0-35 5 15 10 25 25 45 25 15 0 40 12 50 15z" stroke-width="1.25"/>
+   <g fill-opacity=".75">
+    <path d="m15.75 20.3c35 5 70 10 95 40" stroke-width="1.25"/>
+    <g stroke-width=".625">
+     <path d="m35.75 15.45c4 1 7 5.85 10 9.85-5 6-9.5 5-16.7 5.15"/>
+     <path d="m52.75 15.3c8 4 10 8 13 15-3 4-9.75 10.125-20.75 11.125"/>
+     <path d="m72.75 19.3c5 4 9.5 13.5 10.5 18.5-5 3-12.5 7.5-22.5 7.5"/>
+     <path d="m90.75 30.3c5.5 7 3 9 5 15-6 1-8 4-15 4"/>
+    </g>
+   </g>
+  </g>
+  <g stroke-width="1.25">
+   <path d="m75.75 70.3c5-15 60-20 65 0-15 5-20 10-35 10s-20-5-30-10z" fill-rule="evenodd"/>
+   <g stroke="#000">
+    <path d="m110.75 80l-5 0.3c0-25 5-45 10-55s7-18 15-10c5 5-6.85 3.68-10 10-5 10-10 25-10 54.7z" stroke-linejoin="bevel"/>
+    <path d="m140.75 70.3c-10 5-20 10-35 10s-20-5-30-10" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"/>
+   </g>
+  </g>
+ </g>
+</svg>

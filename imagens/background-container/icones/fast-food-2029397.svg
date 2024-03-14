@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="980.2" height="960" version="1.1" viewBox="0 0 980.20034 960.0034" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(583.19 -42.628)">
+  <g transform="matrix(4.8964 0 0 4.7997 -5548.6 -2183.1)">
+   <g transform="translate(2.4223e-5,5.9979e-7)">
+    <rect x="1014.2" y="463.83" width="199.79" height="199.79" rx="0" ry="0" fill="#fdc055" stroke="#216778" stroke-width=".20907"/>
+    <path d="m1105.9 640.04s-13.643-43.472-20.465-65.208l-20.465-65.208 40.922-0.01 40.922-0.01-20.457 65.216z" fill="#cdab5f" stroke="#cdab5f" stroke-width=".16021"/>
+    <rect x="1061.2" y="493.97" width="88.058" height="20.46" rx="11.486" ry="8.2194" fill="#ba882c" stroke="#ba882c" stroke-width=".2335"/>
+    <circle transform="matrix(.19004 0 0 .23016 1014 432.51)" cx="389.62" cy="419.22" r="48.703" fill="#a4240d" stroke="#ba882c"/>
+    <circle transform="matrix(.19004 0 0 .23016 1050.2 432.14)" cx="389.62" cy="419.22" r="48.703" fill="#a4240d" stroke="#ba882c"/>
+    <circle transform="matrix(.19004 0 0 .23016 1032.7 459.67)" cx="389.62" cy="419.22" r="48.703" fill="#a4240d" stroke="#ba882c"/>
+    <circle transform="matrix(.19004 0 0 .23016 1032.8 494.57)" cx="389.62" cy="419.22" r="48.703" fill="#a4240d" stroke="#ba882c"/>
+    <path d="m1123.5 663.25 90.679 0.3846-0.1437-71.892-66.536-95.645 1.8542 3.699 0.2182 5.9448-0.1364 1.8826-0.2454 0.8917-0.7362 1.4366-1.0226 1.3376-0.6681 0.6275-0.6135 0.4789-39.949 127.89c6.5035 8.8076 11.881 15.054 17.299 22.968z" fill="#e9a13f" stroke="#e9a13f" stroke-width=".20914px"/>
+   </g>
+  </g>
+ </g>
+</svg>
