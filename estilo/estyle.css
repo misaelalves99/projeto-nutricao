@@ -307,8 +307,6 @@ iframe {
     background-color: white;
 }
 
-
-
 /* ======= Sobre Parallax ======= */
 
 .parallax-sobre {
@@ -345,6 +343,7 @@ iframe {
 .vitaminas .container {
     width: 75%;
     margin: auto;
+    margin-bottom: 70px;
     padding: 70px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -436,18 +435,15 @@ iframe {
     background-image: url(../imagens/vitaminas/vita-img2.jpg);
 }
 
-/* Hidrossolúveis */
-
-.hidro {
+.container-vita2 {
     width: 100%;
     padding: 70px;
     margin: auto;
-    /*
+    margin-bottom: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
     background-image: linear-gradient(to right, rgb(0, 75, 0), rgb(1, 95, 1), rgb(1, 143, 1) );
-    */
     background-color: rgb(90, 90, 90);
-    background-image: url(../imagens/background-container/background-container\ -\ Copia-01.png);
-   
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -455,14 +451,23 @@ iframe {
     flex-wrap: wrap;
 }
 
-.vitaminas h2.subtitulo-hidro {
-    margin-top: 50px;
-    margin-bottom: 50px;
+/* Hidrossolúveis */
+
+.vitaminas .container-vita2 h2.subtitulo-hidro {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
     font-size: 2rem;
+    color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.hidro .vitamina-b1 {
+.container-vita2 .vitamina-b1 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -475,14 +480,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b1:hover {
+.container-vita2 .vitamina-b1:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b2 {
+.container-vita2 .vitamina-b2 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -496,14 +501,14 @@ iframe {
    
 }
 
-.hidro .vitamina-b2:hover {
+.container-vita2 .vitamina-b2:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b3 {
+.container-vita2 .vitamina-b3 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -516,14 +521,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b3:hover {
+.container-vita2 .vitamina-b3:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b5 {
+.container-vita2 .vitamina-b5 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -536,14 +541,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b5:hover {
+.container-vita2 .vitamina-b5:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b7 {
+.container-vita2 .vitamina-b7 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -556,14 +561,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b7:hover {
+.container-vita2 .vitamina-b7:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b9 {
+.container-vita2 .vitamina-b9 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -576,14 +581,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b9:hover {
+.container-vita2 .vitamina-b9:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-b12 {
+.container-vita2 .vitamina-b12 {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -596,14 +601,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-b12:hover {
+.container-vita2 .vitamina-b12:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .vitamina-c {
+.container-vita2 .vitamina-c {
     width: 160px;
     height: 160px;
     margin-top: 20px;
@@ -616,14 +621,14 @@ iframe {
     border-radius: 30px;
 }
 
-.hidro .vitamina-c:hover {
+.container-vita2 .vitamina-c:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.hidro .faixa1 {
+.container-vita2 .faixa1 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -635,7 +640,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa2 {
+.container-vita2 .faixa2 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -647,7 +652,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa3 {
+.container-vita2 .faixa3 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -659,7 +664,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa4 {
+.container-vita2 .faixa4 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -671,7 +676,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa5 {
+.container-vita2 .faixa5 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -683,7 +688,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa6 {
+.container-vita2 .faixa6 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -695,7 +700,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa7 {
+.container-vita2 .faixa7 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -707,7 +712,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .faixa8 {
+.container-vita2 .faixa8 {
     width: 145px;
     height: 40px;
     margin: auto;
@@ -719,7 +724,7 @@ iframe {
     top: 6px;
 }
 
-.hidro .tema1 {
+.container-vita2 .tema1 {
     margin: auto;
     text-align: center;
     color: white;
@@ -728,7 +733,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema2 {
+.container-vita2 .tema2 {
     margin: auto;
     text-align: center;
     color: white;
@@ -737,7 +742,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema3 {
+.container-vita2 .tema3 {
     margin: auto;
     text-align: center;
     color: white;
@@ -746,7 +751,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema4 {
+.container-vita2 .tema4 {
     margin: auto;
     text-align: center;
     color: white;
@@ -755,7 +760,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema5 {
+.container-vita2 .tema5 {
     margin: auto;
     text-align: center;
     color: white;
@@ -764,7 +769,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema6 {
+.container-vita2 .tema6 {
     margin: auto;
     text-align: center;
     color: white;
@@ -773,7 +778,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema7 {
+.container-vita2 .tema7 {
     margin: auto;
     text-align: center;
     color: white;
@@ -782,7 +787,7 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .tema8 {
+.container-vita2 .tema8 {
     margin: auto;
     text-align: center;
     color: white;
@@ -791,56 +796,56 @@ iframe {
     font-size: .9rem;
 }
 
-.hidro .vitamina-b1 img {
+.container-vita2 .vitamina-b1 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b2 img {
+.container-vita2 .vitamina-b2 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b3 img {
+.container-vita2 .vitamina-b3 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b5 img {
+.container-vita2 .vitamina-b5 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b7 img {
+.container-vita2 .vitamina-b7 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b9 img {
+.container-vita2 .vitamina-b9 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-b12 img {
+.container-vita2 .vitamina-b12 img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
     max-width: 90%;
 }
 
-.hidro .vitamina-c img {
+.container-vita2 .vitamina-c img {
     position: relative;
     top: -28px;
     font-size: 1.3rem;
@@ -849,229 +854,257 @@ iframe {
 
 /* Lipossolúveis */
 
-.lipo {
-    width: 100%;
-    padding: 70px;
+.vitaminas .container-vita2 h2.subtitulo-lipo {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-vita2 .vitamina-a {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-vita2 .vitamina-a:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-vita2 .vitamina-d {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-vita2 .vitamina-d:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-vita2 .vitamina-e {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-vita2 .vitamina-e:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-vita2 .vitamina-k {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-vita2 .vitamina-k:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-vita2 .faixa1 {
+    width: 145px;
+    height: 40px;
     margin: auto;
-    background-color: rgb(90, 90, 90);
-    background-image: url(../imagens/background-container/background-container\ -\ Copia-01.png);
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-vita2 .faixa2 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-vita2 .faixa3 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-vita2 .faixa4 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-vita2 .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-vita2 .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-vita2 .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-vita2 .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-vita2 .vitamina-a img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-vita2 .vitamina-d img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-vita2 .vitamina-e img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-vita2 .vitamina-k img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+/* ======= VITAMINAS PARALLAX ======= */
+
+.parallax-vitaminas {
+    background-image: url(../imagens/parallax/sobre-parallax.jpg);
+    width: 100%;
+    padding: 8%;
+    background-position: 0px -85px;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-vitaminas h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.parallax-vitaminas p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/* ======= SAIS MINERAIS ======= */
+    
+.sais-minerais {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    background-image: url(../imagens/background-container/background-container.png);
+    background-repeat: repeat-x repeat-y;
+}
+
+.sais-minerais .container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
     border-style: dashed;
-    border-color: red;
-    border-width: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.vitaminas h2.subtitulo-lipo {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.lipo .vitamina-a {
-    width: 160px;
-    height: 160px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: #02351a;
+    border-color: black;
     border-radius: 30px;
-}
-
-.lipo .vitamina-a:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.lipo .vitamina-d {
-    width: 160px;
-    height: 160px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: #02351a;
-    border-radius: 30px;
-}
-
-.lipo .vitamina-d:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.lipo .vitamina-e {
-    width: 160px;
-    height: 160px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: #02351a;
-    border-radius: 30px;
-}
-
-.lipo .vitamina-e:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.lipo .vitamina-k {
-    width: 160px;
-    height: 160px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-color: #02351a;
-    border-radius: 30px;
-}
-
-.lipo .vitamina-k:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.lipo .faixa1 {
-    width: 145px;
-    height: 40px;
-    margin: auto;
-    border-style: solid;
-    border-color: #02351a;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 6px;
-}
-
-.lipo .faixa2 {
-    width: 145px;
-    height: 40px;
-    margin: auto;
-    border-style: solid;
-    border-color: #02351a;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 6px;
-}
-
-.lipo .faixa3 {
-    width: 145px;
-    height: 40px;
-    margin: auto;
-    border-style: solid;
-    border-color: #02351a;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 6px;
-}
-
-.lipo .faixa4 {
-    width: 145px;
-    height: 40px;
-    margin: auto;
-    border-style: solid;
-    border-color: #02351a;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 6px;
-}
-
-.lipo .tema1 {
-    margin: auto;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -22px;
-    font-size: .9rem;
-}
-
-.lipo .tema2 {
-    margin: auto;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -22px;
-    font-size: .9rem;
-}
-
-.lipo .tema3 {
-    margin: auto;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -22px;
-    font-size: .9rem;
-}
-
-.lipo .tema4 {
-    margin: auto;
-    text-align: center;
-    color: white;
-    position: relative;
-    top: -22px;
-    font-size: .9rem;
-}
-
-.lipo .vitamina-a img {
-    position: relative;
-    top: -28px;
-    font-size: 1.3rem;
-    max-width: 90%;
-}
-
-.lipo .vitamina-d img {
-    position: relative;
-    top: -28px;
-    font-size: 1.3rem;
-    max-width: 90%;
-}
-
-.lipo .vitamina-e img {
-    position: relative;
-    top: -28px;
-    font-size: 1.3rem;
-    max-width: 90%;
-}
-
-.lipo .vitamina-k img {
-    position: relative;
-    top: -28px;
-    font-size: 1.3rem;
-    max-width: 90%;
-}
-
-/* Funções - Hidrossolúveis*/
-
-.func-hidro {
-    width: 100%;
-    padding: 70px;
-    margin: auto;
-    background-color: rgb(255, 187, 0);
-    background-image: url(../imagens/background-container/background-container\ -\ Copia-01.png);
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1079,632 +1112,2007 @@ iframe {
     flex-wrap: wrap;
 }
 
-.vitaminas h2.subtitulo-func {
-    margin-top: 50px;
+.sais-minerais h1.titulo {
+    margin: auto;
+    font-size: 3rem;
     text-align: center;
-    color: black;
-    font-size: 2rem;
 }
 
-.vitaminas h3.subtitulo-func {
+.sais-minerais hr.hr-sais {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.sais-minerais h2.subtitulo-sais {
     margin-top: 30px;
     margin-bottom: 50px;
-    text-align: center;
-    color: black;
     font-size: 1.5rem;
-}
-
-.func-hidro .func-vitamina-b1 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b1:hover {
-    color: white;
-    border-color: red;
-    border-style: solid;
-    background-color: #02351a;
-    
-}
-
-.func-hidro .func-vitamina-b2 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b2:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b3 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b3:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b5 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b5:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b7 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b7:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b9 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b9:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b12 {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-b12:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-c {
-    width: 320px;
-    height: 182px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-}
-
-.func-hidro .func-vitamina-c:hover {
-    color: white;
-    border-color: red;
-    background-color: #02351a;
-    border-style: solid;
-}
-
-.func-hidro .func-vitamina-b1 .faixa1 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b2 .faixa2 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b3 .faixa3 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b5 .faixa4 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b7 .faixa5 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b9 .faixa6 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b12 .faixa7 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-c .faixa8 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
-    border-style: solid;
-    background-color: red;
-    border-radius: 30px;
-    position: relative;
-    top: 5px;
-}
-
-.func-hidro .func-vitamina-b1 .tema1 {
-    color: white;
     text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
 }
 
-.func-hidro .func-vitamina-b2 .tema2 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b3 .tema3 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b5 .tema4 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b7 .tema5 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b9 .tema6 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b12 .tema7 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-c .tema8 {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
-}
-
-.func-hidro .func-vitamina-b1 ul li {
-    font-size: .9rem;
+.sais-minerais .container .texto1 p {
+    width: 440px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: rap;
+    text-indent: 50px;
 }
 
-.func-hidro .func-vitamina-b2 ul li {
-    font-size: .9rem;
+.sais-minerais .container .imagem1 {
+    width: 350px;
+    height: 230px;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    background-image: url(../imagens/vitaminas/vita-img1.jpg);
+}
+
+.sais-minerais .container .texto2 p {
+    width: 440px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: rap;
+    text-indent: 50px;
 }
 
-.func-hidro .func-vitamina-b3 ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
+.sais-minerais .container .imagem2 {
+    width: 350px;
+    height: 230px;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    background-image: url(../imagens/vitaminas/vita-img2.jpg);
 }
 
-.func-hidro .func-vitamina-b5 ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.func-hidro .func-vitamina-b7 ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.func-hidro .func-vitamina-b9 ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.func-hidro .func-vitamina-b12 ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.func-hidro .func-vitamina-c ul li {
-    font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-/* Funções - Lipossolúveis*/
-
-.func-lipo {
+.container-sais2 {
     width: 100%;
     padding: 70px;
     margin: auto;
+    margin-bottom: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: linear-gradient(to right, rgb(0, 75, 0), rgb(1, 95, 1), rgb(1, 143, 1) );
     background-color: rgb(90, 90, 90);
-    background-image: url(../imagens/background-container/background-container\ -\ Copia-01.png);
-    border-style: dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sais-minerais .container-sais2 h2.subtitulo-sais {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-sais2 .calcio {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .calcio:hover {
+    color: white;
     border-color: red;
-    border-width: 1em;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .cloro {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+   
+}
+
+.container-sais2 .cloro:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .cromo {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .cromo:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .enxofre {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .enxofre:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .ferro {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .ferro:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .fluor {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .fluor:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .fosforo {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .fosforo:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .iodo {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .iodo:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .magnesio {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .magnesio:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .manganes {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .manganes:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .potassio {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .potassio:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .selenio {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .selenio:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .sodio {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .sodio:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .zinco {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-sais2 .zinco:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-sais2 .faixa1 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa2 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa3 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa4 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa5 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa6 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa7 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa8 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa9 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa10 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa11 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa12 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa13 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .faixa14 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-sais2 .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema5 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema6 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema7 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema8 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema9 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema10 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema11 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema12 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema13 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .tema14 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-sais2 .calcio img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .cloro img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .cromo img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .enxofre img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .ferro img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .fluor img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .fosforo img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .iodo img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .magnesio img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .manganes img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .potassio img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .selenio img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .sodio img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-sais2 .zinco img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+/* ======= SAIS MINERAIS PARALLAX ======= */
+
+.parallax-sais-minerais {
+    background-image: url(../imagens/parallax/sobre-parallax.jpg);
+    width: 100%;
+    padding: 8%;
+    background-position: 0px -85px;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-sais-minerais h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.parallax-sais-minerais p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/* ======= AMINOÁCIDOS ======= */
+    
+.aminoacidos {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    background-image: url(../imagens/background-container/background-container.png);
+    background-repeat: repeat-x repeat-y;
+}
+
+.aminoacidos .container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 30px;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 30px;
 }
 
-.vitaminas h3.subtitulo-func {
-    margin-top: 50px;
+.aminoacidos h1.titulo {
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.aminoacidos hr.hr-amin {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.aminoacidos h2.subtitulo-amin {
+    margin-top: 30px;
     margin-bottom: 50px;
-    text-align: center;
-    color: black;
     font-size: 1.5rem;
+    text-align: center;
 }
 
-.func-lipo .func-vitamina-a {
-    width: 320px;
-    height: 182px;
+.aminoacidos .container .texto1 p {
+    width: 440px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: rap;
+    text-indent: 50px;
+}
+
+.aminoacidos .container .imagem1 {
+    width: 350px;
+    height: 230px;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    background-image: url(../imagens/vitaminas/vita-img1.jpg);
+}
+
+.aminoacidos .container .texto2 p {
+    width: 440px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    flex-wrap: rap;
+    text-indent: 50px;
+}
+
+.aminoacidos .container .imagem2 {
+    width: 350px;
+    height: 230px;
+    border-radius: 90px 0px 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    background-image: url(../imagens/vitaminas/vita-img2.jpg);
+}
+
+.container-amin2 {
+    width: 100%;
+    padding: 70px;
+    margin: auto;
+    margin-bottom: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: linear-gradient(to right, rgb(0, 75, 0), rgb(1, 95, 1), rgb(1, 143, 1) );
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ESSENCIAIS */
+
+.aminoacidos .container-amin2 h2.subtitulo-nessenciais {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-amin2 .fenilalanina {
+    width: 160px;
+    height: 160px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-color: #02351a;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: white;
-    color: black;
+    border-color: #02351a;
     border-radius: 30px;
 }
 
-.func-lipo .func-vitamina-a:hover {
+.container-amin2 .fenilalanina:hover {
     color: white;
     border-color: red;
-    border-style: solid;
     background-color: #02351a;
-    
+    border-style: solid;
 }
 
-.func-lipo .func-vitamina-d {
-    width: 320px;
-    height: 182px;
+.container-amin2 .histidina {
+    width: 160px;
+    height: 160px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-color: #02351a;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: white;
-    color: black;
+    border-color: #02351a;
     border-radius: 30px;
 }
 
-.func-lipo .func-vitamina-d:hover {
+.container-amin2 .histidina:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.func-lipo .func-vitamina-e {
-    width: 320px;
-    height: 182px;
+.container-amin2 .isoleucina {
+    width: 160px;
+    height: 160px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-color: #02351a;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: white;
-    color: black;
+    border-color: #02351a;
     border-radius: 30px;
 }
 
-.func-lipo .func-vitamina-e:hover {
+.container-amin2 .isoleucina:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.func-lipo .func-vitamina-k {
-    width: 320px;
-    height: 182px;
+.container-amin2 .leucina {
+    width: 160px;
+    height: 160px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-color: #02351a;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
-    background-color: white;
-    color: black;
+    border-color: #02351a;
     border-radius: 30px;
 }
 
-.func-lipo .func-vitamina-k:hover {
+.container-amin2 .leucina:hover {
     color: white;
     border-color: red;
     background-color: #02351a;
     border-style: solid;
 }
 
-.func-lipo .func-vitamina-a .faixa1 {
-    width: 290px;
-    height: 32px;
-    margin: auto;
-    border-color: #02351a;
+.container-amin2 .lisina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
     border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .lisina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .metionina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .metionina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .treonina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .treonina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .triptofano {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .triptofano:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .valina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .valina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .faixa1 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
     background-color: red;
     border-radius: 30px;
     position: relative;
-    top: 5px;
+    top: 6px;
 }
 
-.func-lipo .func-vitamina-a .faixa1:hover {
-    background-color: red;
-}
-
-.func-lipo .func-vitamina-d .faixa2 {
-    width: 290px;
-    height: 32px;
+.container-amin2 .faixa2 {
+    width: 145px;
+    height: 40px;
     margin: auto;
-    border-color: #02351a;
     border-style: solid;
+    border-color: #02351a;
     background-color: red;
     border-radius: 30px;
     position: relative;
-    top: 5px;
+    top: 6px;
 }
 
-.func-lipo .func-vitamina-e .faixa3 {
-    width: 290px;
-    height: 32px;
+.container-amin2 .faixa3 {
+    width: 145px;
+    height: 40px;
     margin: auto;
-    border-color: #02351a;
     border-style: solid;
+    border-color: #02351a;
     background-color: red;
     border-radius: 30px;
     position: relative;
-    top: 5px; 
+    top: 6px;
 }
 
-.func-lipo .func-vitamina-k .faixa4 {
-    width: 290px;
-    height: 32px;
+.container-amin2 .faixa4 {
+    width: 145px;
+    height: 40px;
     margin: auto;
-    border-color: #02351a;
     border-style: solid;
+    border-color: #02351a;
     background-color: red;
     border-radius: 30px;
     position: relative;
-    top: 5px;
+    top: 6px;
 }
 
-.func-lipo .func-vitamina-a .tema1 {
+.container-amin2 .faixa5 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa6 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa7 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa8 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa9 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema5 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema6 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema7 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema8 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema9 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .fenilalanina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .histidina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .isoleucina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .leucina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .lisina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .metionina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .treonina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .triptofano img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .valina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+/* NÃO ESSENCIAIS */
+
+.aminoacidos .container-amin2 h2.subtitulo-essenciais {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-size: 2rem;
     color: white;
     text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.func-lipo .func-vitamina-d .tema2 {
+.container-amin2 .alanina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .alanina:hover {
     color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
 }
 
-.func-lipo .func-vitamina-e .tema3 {
+.container-amin2 .arginina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .arginina:hover {
     color: white;
-    text-align: center;
-    position: relative;
-    top: -19px;
-    font-size: .9rem;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
 }
 
-.func-lipo .func-vitamina-k .tema4 {
+.container-amin2 .asparagina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .asparagina:hover {
     color: white;
-    text-align: center;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .aspartato {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .aspartato:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .cisteina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .cisteina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .glicina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .glicina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .glutamato {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .glutamato:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .glutamina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .glutamina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .prolina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .prolina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .serina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .serina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .tirosina {
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #02351a;
+    border-radius: 30px;
+}
+
+.container-amin2 .tirosina:hover {
+    color: white;
+    border-color: red;
+    background-color: #02351a;
+    border-style: solid;
+}
+
+.container-amin2 .faixa1 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
     position: relative;
-    top: -19px;
+    top: 6px;
+}
+
+.container-amin2 .faixa2 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin .faixa3 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa4 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa5 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa6 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa7 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa8 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa9 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa10 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .faixa11 {
+    width: 145px;
+    height: 40px;
+    margin: auto;
+    border-style: solid;
+    border-color: #02351a;
+    background-color: red;
+    border-radius: 30px;
+    position: relative;
+    top: 6px;
+}
+
+.container-amin2 .tema1 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
     font-size: .9rem;
 }
 
-.func-lipo .func-vitamina-a ul li {
+.container-amin2 .tema2 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
     font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-.func-lipo .func-vitamina-d ul li {
+.container-amin2 .tema3 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
     font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-.func-lipo .func-vitamina-e ul li {
+.container-amin2 .tema4 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
     font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-.func-lipo .func-vitamina-k ul li {
+.container-amin2 .tema5 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
     font-size: .9rem;
-    margin-left: 30px;
-    margin-right: 30px;
+}
+
+.container-amin2 .tema6 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema7 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema8 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema9 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema10 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .tema11 {
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -22px;
+    font-size: .9rem;
+}
+
+.container-amin2 .alanina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .arginina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .asparagina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .aspartato img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .cisteina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .glicina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .glutamato img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .glutamina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .prolina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .serina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+.container-amin2 .tirosina img {
+    position: relative;
+    top: -28px;
+    font-size: 1.3rem;
+    max-width: 90%;
+}
+
+/* ======= CONTATO ======= */
+
+.contato {
+    width: 100%;
+}
+
+.contato h1 {
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contato hr {
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.contato .container {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+}
+
+.info .email .icone {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    color: #ef6603;
+    float: left;
+    background: #ffecde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.info .whatsapp .icone {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    color: #ef6603;
+    float: left;
+    background: #ffecde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.info .localização .icone {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+    color: #ef6603;
+    float: left;
+    background: #ffecde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
 }
 
 
-/* ======= Sais Minerais ======= */
+.contato .info {
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
 
-
-
-/* ======= Aminoácidos ======= */
-
-
-
-/* ======= Carboidratos ======= */
-
-
-
-/* ======= Contato ======= */
+.contato .form {
+    margin-left: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: .1rem;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
