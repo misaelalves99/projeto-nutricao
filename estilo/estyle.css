@@ -145,6 +145,9 @@ header li a:hover {
 
 .sobre {
     width: 100%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: white;
     background-image: url(../imagens/background-container/background-container.png);
     background-repeat: repeat-x repeat-y;
@@ -208,16 +211,13 @@ header li a:hover {
 }
 
 .sobre .previa {
-    width: 75%;
+    width: 100%;
     background-color: rgb(110, 197, 139);
-    border-style: dashed;
-    border-color: black;
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 30px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -335,6 +335,8 @@ iframe {
 .vitaminas {
     width: 100%;
     margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: white;
     background-image: url(../imagens/background-container/background-container.png);
     background-repeat: repeat-x repeat-y;
@@ -1063,7 +1065,7 @@ iframe {
 /* ======= VITAMINAS PARALLAX ======= */
 
 .parallax-vitaminas {
-    background-image: url(../imagens/parallax/sobre-parallax.jpg);
+    background-image: url(../imagens/parallax/vita-parallax.jpg);
     width: 100%;
     padding: 8%;
     background-position: 0px -85px;;
@@ -1088,6 +1090,8 @@ iframe {
 .sais-minerais {
     width: 100%;
     margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: white;
     background-image: url(../imagens/background-container/background-container.png);
     background-repeat: repeat-x repeat-y;
@@ -1894,7 +1898,7 @@ iframe {
 /* ======= SAIS MINERAIS PARALLAX ======= */
 
 .parallax-sais-minerais {
-    background-image: url(../imagens/parallax/sobre-parallax.jpg);
+    background-image: url(../imagens/parallax/sais-parallax.jpg);
     width: 100%;
     padding: 8%;
     background-position: 0px -85px;;
@@ -1919,6 +1923,8 @@ iframe {
 .aminoacidos {
     width: 100%;
     margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
     background-color: white;
     background-image: url(../imagens/background-container/background-container.png);
     background-repeat: repeat-x repeat-y;
@@ -3027,10 +3033,38 @@ iframe {
     max-width: 90%;
 }
 
+/* ======= AMINOÁCIDOS PARALLAX ======= */
+
+.parallax-aminoacidos {
+    background-image: url(../imagens/parallax/amin-parallax.jpg);
+    width: 100%;
+    padding: 8%;
+    background-position: 0px -85px;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-aminoacidos h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.parallax-aminoacidos p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
 /* ======= CONTATO ======= */
 
 .contato {
     width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: rgb(240, 240, 240);
+    background-image: url(../imagens/background-container/background-container.png);
+    background-repeat: repeat-x repeat-y;
 }
 
 .contato h1 {
@@ -3053,7 +3087,9 @@ iframe {
 .contato .container {
     width: 80%;
     margin: auto;
-    background-color: rgb(207, 207, 207);
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-width: .1rem;
     display: flex;
     flex-direction: row;
 }
@@ -3061,10 +3097,10 @@ iframe {
 .info .email .icone {
     width: 44px;
     height: 44px;
-    font-size: 20px;
+    margin-right: 20px;
     color: #ef6603;
     float: left;
-    background: #ffecde;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3074,10 +3110,10 @@ iframe {
 .info .whatsapp .icone {
     width: 44px;
     height: 44px;
-    font-size: 20px;
+    margin-right: 20px;
     color: #ef6603;
     float: left;
-    background: #ffecde;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3087,35 +3123,283 @@ iframe {
 .info .localização .icone {
     width: 44px;
     height: 44px;
-    font-size: 20px;
+    margin-right: 20px;
     color: #ef6603;
     float: left;
-    background: #ffecde;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
 }
 
-
 .contato .info {
-    width: 30%;
-    background-color: aqua;
+    width: 40%;
+    background-color: #01500c;
+    border-radius: 10px 0px 0px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .contato .form {
+    width: 60%;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
     margin-left: auto;
-    border-style: solid;
-    border-color: black;
-    border-width: .1rem;
     display: flex;
     flex-direction: column;
 }
 
+.contato .form form {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.contato .form .form {
+    width: 100%;
+    margin: auto;
+}
+
+.contato .form .row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.contato .form #nome {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-width: 2px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.contato .form #email {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-width: 2px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.contato .form #assunto {
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-width: 2px;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.contato .form #mensagem {
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgb(165, 165, 165);
+    border-width: 2px;
+    border-radius: 0;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.contato .email {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.contato .email h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contato .email p {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato .whatsapp {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.contato .whatsapp h4 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.contato .whatsapp p {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato .localização {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.contato .localização h4 {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contato .localização p {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato .btn-enviar {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    padding: 20px;
+    background-color: green;
+    border-radius: 30px;
+    font-size: .7rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ======= Footer ======= */
 
+footer {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+}
 
+footer .container  {
+    width: 60%;
+    margin: auto;
+}
+
+footer .container h1 {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+footer .container p {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer .container .redes-sociais {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .redes-sociais i {
+    margin-top: 11px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .redes-sociais .twitter {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .redes-sociais .facebook {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .redes-sociais .instagram {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .redes-sociais .skype {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .redes-sociais .github {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .redes-sociais .linkedin {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+footer .container .copyright {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer .container .creditos {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
